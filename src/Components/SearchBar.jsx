@@ -1,9 +1,17 @@
 import './Styles/SearchBar.css';
 
-function SearchBar(props) {
+
+function SearchBar({handleSubmit}) {
+	const handleFormSubmit = (event) => {
+		event.preventDefault();
+		handleSubmit('hello from searchbar child component using function');
+	};
 	return (
 		<div className="searchB">
-		<h1>hello from search bar</h1>
+			<form onSubmit={handleFormSubmit}>
+				<label>check this out: </label>
+				<input/>
+			</form>
 		</div>
 	);
 }
