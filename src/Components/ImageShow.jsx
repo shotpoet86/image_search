@@ -1,9 +1,9 @@
 import './Styles/ImageShow.css';
 import React from 'react';
 
-function ImageShow(props) {
+function ImageShow({image}) {
 	return (
-		<div className="imageS"><h1>Hello from imageshow</h1></div>
+		<div className="imageS"><h1>{image.id}</h1></div>
 	);
 }
 
