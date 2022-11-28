@@ -3,7 +3,7 @@ import React from 'react';
 
 function ImageShow({image}) {
 	return (
-		<div className="imageS"><h1>{image.id}</h1></div>
+		<div className="imageS"><h3>{image.id}</h3></div>
 	);
 }
 

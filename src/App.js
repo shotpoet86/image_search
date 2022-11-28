@@ -19,10 +19,12 @@ function App() {
 	return (
 		<div className="App">
 			<h1>hello from app</h1>
+			<SearchBar searchResults={searchResults}/>
+			<br/>
 			<ImageList appImageResults={images}/>
 			{/*takes in search term from child SearchBar component
 			for use in App component */}
-			<SearchBar searchResults={searchResults}/>
+
 		</div>
 	);
 }

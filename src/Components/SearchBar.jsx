@@ -18,7 +18,7 @@ function SearchBar({searchResults}) {
 		<div className="searchB">
 			<form onSubmit={handleFormSubmit}>
 				<label>check this out: </label>
-				<input placeholder="enter text here"
+				<input placeholder="search pictures here"
 				       value={term}
 				       onChange={e => {
 					       console.log(term);
