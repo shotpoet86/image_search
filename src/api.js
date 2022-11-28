@@ -4,6 +4,7 @@ import axios from 'axios';
 //delivers to unsplash api as search query
 const searchImages = async (term) => {
 	//store api get request in response var
+	//receive error on initial get request when loading page, otherwise OK 200.
 	const response = await axios.get('https://api.unsplash.com/search/photos',
 		{
 			headers: {
