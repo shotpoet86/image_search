@@ -18,7 +18,6 @@ function App() {
 
 	return (
 		<div className="App">
-			<h1>hello from app</h1>
 			<SearchBar searchResults={searchResults}/>
 			<br/>
 			<ImageList appImageResults={images}/>

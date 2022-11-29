@@ -12,12 +12,13 @@ function SearchBar({searchResults}) {
 		e.preventDefault();
 		//pass user input results of state "term" up to App component for processing
 		searchResults(term);
+		setTerm('')
 	};
 
 	return (
-		<div className="searchB">
+		<div className="search-bar">
 			<form onSubmit={handleFormSubmit}>
-				<label>check this out: </label>
+				<label>Enter Search Term </label>
 				<input placeholder="search pictures here"
 				       value={term}
 				       onChange={e => {

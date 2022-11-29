@@ -3,7 +3,7 @@ import React from 'react';
 
 function ImageShow({image}) {
 	return (
-		<div className="imageS"><h3>{image.id}</h3></div>
+		<div><img src={image.urls.small} alt="image.alt_description"/></div>
 	);
 }
 

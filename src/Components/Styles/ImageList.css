@@ -1,3 +1,11 @@
-.imageL{
-	color: green;
+.image-list {
+	columns: 6 200px;
+	column-gap: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+	}
+
+img {
+	width: 100%;
+	margin-bottom: 10px;
 	}

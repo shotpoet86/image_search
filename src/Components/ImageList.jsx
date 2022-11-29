@@ -7,7 +7,7 @@ function ImageList({appImageResults}) {
 		return (<ImageShow key={image.id} image={image}/>);
 	});
 	return (
-		<div className="imageL">ImageList:{renderedImages}</div>
+		<div className="image-list">{renderedImages}</div>
 	);
 }
 

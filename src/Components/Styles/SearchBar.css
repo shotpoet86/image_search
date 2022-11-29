@@ -1,3 +1,13 @@
-.searchB{
-	color: dodgerblue;
+.search-bar {
+	text-align: center;
+	margin-left: 30%;
+	margin-right: 30%;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	padding: 10px;
+	}
+
+.search-bar form {
+	display: flex;
+	flex-direction: column;
 	}
